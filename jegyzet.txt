@@ -1,0 +1,13 @@
+font-family: 'Amatic SC', cursive;
+font-family: 'Open Sans', sans-serif;
+
+
+
+function menuOpen() {
+    document.getElementById("js-menuList").style.display ="flex";
+    
+}
+
+
+let menu = document.getElementById("js-menuList");
+    element.classList.toggle(".none");
