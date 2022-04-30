@@ -9,5 +9,6 @@ menuButton.addEventListener('click', menuOpen);
 
 function menuOpen() {
     menuList.classList.toggle('nemu-active')
+    menuButton.classList.toggle('fa-times')
 }
 
