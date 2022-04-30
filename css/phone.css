@@ -1,96 +1,14 @@
-/*-----------Header---------------------------------------*/
+/* /*-----------Header---------------------------------------*/
 
- header{
-     display: flex;
-     flex-direction: column;
-     height: auto;
-     justify-content: center;
-     text-align: center;
-     height: 20rem;
-     line-height: 3.3rem;
-     font-family: 'Amatic SC', cursive;
-     white-space: nowrap;
-     color: ghostwhite;
-     text-shadow: 1px 1px 1px black;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/klavi_bg_optimized.jpg);
-     background-position: center;
-     background-repeat:no-repeat;
-     background-size: cover;
- }
 
-header h1{
-    font-size: 2.8rem;
-}
-header h3{
-    font-size: 2rem;
-}
-
- span{
-     color: ghostwhite;
-     z-index: 2;
-     background-color: rgba(0, 0, 0, 0.822);
-     width: 100%;
-     height: 4.2rem;
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
-     position: fixed;
-     top: 0;
- }
-
- .fa-bars{
-    margin: 1rem  1rem 1rem 0;
-    background-color: rgba(128, 128, 128, 0.432);
-    font-size: 1.5rem;
-    border-radius: 50%;
-    padding: 1rem;
-    color: ghostwhite;
- }
 
  /*-----------Navbar---------------------------------------*/
 
- nav{
-    background-color: rgba(0, 0, 0, 0.822);
-     color: ghostwhite;
-     position: fixed;
-     top: 0;
-     width: 100%;
-     height: auto;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     padding: 5rem 0 2rem 0;
-     transform: translateY(-25rem);
-     transition: transform 350ms ease-in-out;
- }
-
- nav a{
-     text-decoration: none;
-     color: ghostwhite;
-     font-size: 1.5rem;
-     text-shadow: 1px 1px 1px black;
-     font-weight: bold;
-     letter-spacing: .2rem;
- }
-
- .nemu-active{
-     transform: translateY(0);
- }
-
- ul {
-    list-style: none;
-    line-height: 2.8rem;
-}
-
-li{
-    white-space: nowrap;
-}
+ 
 
 
-
+ /*-----------Main---------------------------------------*/
 main{
     height: 50rem;
-    background-color: blueviolet;
+    background-color: red;
 }

@@ -11,10 +11,3 @@ function menuOpen() {
     menuList.classList.toggle('nemu-active')
 }
 
-/*
-function menuOpen() {
-    document.getElementById("js-menuList").style.display ="flex";
-    menuButton.style.display ="none"
-    menuButtonX.style.display =""
-
-} */
