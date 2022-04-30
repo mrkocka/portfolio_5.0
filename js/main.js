@@ -1,14 +1,17 @@
 //Menu code
 
+const menuButton = document.getElementById('js-menu')
+const menuList = document.getElementById('js-menuList')
 
 
-
-/* const menuButton = document.getElementById("js-menu")
-const menuButtonX = document.getElementById ("js-menuX")
-
-menuButton.addEventListener("click", menuOpen);
+menuButton.addEventListener('click', menuOpen);
 
 
+function menuOpen() {
+    menuList.classList.toggle('nemu-active')
+}
+
+/*
 function menuOpen() {
     document.getElementById("js-menuList").style.display ="flex";
     menuButton.style.display ="none"
