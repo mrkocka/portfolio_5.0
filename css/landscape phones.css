@@ -123,8 +123,8 @@ li{
 
 .aboutText{
    line-height: 2rem;
-   text-align: justify;
    width: 100%;
+   padding: 1rem;
 }
 
 .aboutText p{

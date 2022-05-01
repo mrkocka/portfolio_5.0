@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /*-----------Header---------------------------------------*/
-header{
+/*header{
     display: flex;
     flex-direction: column;
     height: auto;
@@ -42,7 +42,7 @@ header h1{
 /*-----------Navbar---------------------------------------*/
 
 
-nav {
+/*nav {
     width: 100%;
     height: 6rem;
     background-color: rgba(0, 0, 0, 0.822);
@@ -112,30 +112,31 @@ nav {
 
  .aboutImage{
    display: flex;
-   text-align: center;
+   justify-content: center;
    padding: 2rem;
  
+
 
  }
 
 .aboutImage img{
-    width: 100%;
+     width: 100%;
      max-width: 450px;
      height: auto;
      border-radius: 15px;
- }
+ } */
 
  .aboutText{
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     line-height: 3rem;
-    width: 70%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: burlywood;
+    width: 50%;
  }
 
  .aboutText p{
@@ -145,10 +146,8 @@ nav {
  .aboutFirstBox{
      display: flex;
      justify-content: center;
-
-     /* justify-content:space-between; */
+     gap: rem;
      padding-top: 4rem;
-    
  }
 
  .skills{
