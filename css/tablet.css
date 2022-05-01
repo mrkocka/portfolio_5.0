@@ -9,7 +9,6 @@ header{
     height: 20rem;
     line-height: 3.3rem;
     font-family: 'Amatic SC', cursive;
-    white-space: nowrap;
     color: ghostwhite;
     text-shadow: 1px 1px 1px black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/klavi_bg_optimized.jpg);
@@ -93,7 +92,60 @@ li{
 
 
 
-main{
-   height: 50rem;
-   background-color: blueviolet;
+
+
+/*-----------About---------------------------------------*/
+
+#about{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 4rem 1rem 2rem 1rem;
+  
+}
+
+.aboutImage{
+   justify-content: center;
+  
+}
+
+.aboutImage img{
+   width: 100%;
+   max-width: 450px;
+   
+}
+
+#about h4 {
+   font-size: 2.5rem ;
+   text-align: center;
+   margin: 1rem 0 1rem 0;
+}
+
+.aboutText{
+   line-height: 2rem;
+   text-align: justify;
+   width: 100%;
+}
+
+.aboutText p{
+   font-size: 1.3rem;
+}
+
+#about h3 {
+   font-size: 1.9rem ;
+   margin: 2rem 0 2rem 0;
+   text-align: center;
+}
+
+.aboutFirstBox{
+   flex-direction: column;
+   width: 100%;
+}
+
+
+
+
+.gitLink{
+   text-align: center;
+   font-size: 1.3rem;
 }

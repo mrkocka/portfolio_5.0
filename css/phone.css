@@ -7,8 +7,54 @@
  
 
 
- /*-----------Main---------------------------------------*/
+/*-----------Main---------------------------------------*/
 main{
     height: 50rem;
     background-color: red;
+}
+
+
+/*-----------About---------------------------------------*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 1rem 2rem 1rem;
+    height: auto;
+}
+
+#about h4 {
+    font-size: 2.2rem ;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.aboutText{
+    line-height: 2rem;
+}
+
+.aboutText p{
+    font-size: 1.2rem;
+    text-align:start;
+}
+
+#about h3 {
+    font-size: 1.7rem ;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.gitLink{
+    text-align: center;
+    font-size: 1.1rem;
 }

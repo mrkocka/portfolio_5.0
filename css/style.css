@@ -18,7 +18,6 @@ header{
     height: 40rem;
     line-height: 8rem;
     font-family: 'Amatic SC', cursive;
-    white-space: nowrap;
     color: ghostwhite;
     text-shadow: 1px 1px 1px black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/klavi_bg_optimized.jpg);
@@ -80,3 +79,116 @@ nav {
     height: 50rem;
     background-color:chartreuse;
  }
+
+/*-----------About---------------------------------------*/
+
+
+ #about {
+    background-color: black;
+    color: ghostwhite;
+    text-shadow: 1px 1px black;
+    height: auto;
+    
+    
+ }
+
+
+#about h4, h3 {
+    font-family: 'Amatic SC', cursive;
+ }
+
+ #about h4 {
+    font-size: 2.9rem ;
+    text-align: start;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+ }
+
+ #about h3 {
+    font-size: 2.2rem ;
+    margin: 2rem 0 4rem 0;
+    text-align: center;
+ }
+
+ .aboutImage{
+   display: flex;
+   text-align: center;
+   padding: 2rem;
+ 
+
+ }
+
+.aboutImage img{
+    width: 100%;
+     max-width: 450px;
+     height: auto;
+     border-radius: 15px;
+ }
+
+ .aboutText{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 3rem;
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+ }
+
+ .aboutText p{
+     font-size: 1.5rem;
+ }
+
+ .aboutFirstBox{
+     display: flex;
+     justify-content: center;
+
+     /* justify-content:space-between; */
+     padding-top: 4rem;
+    
+ }
+
+ .skills{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    padding-bottom: 4rem;
+ }
+ .skills p {
+     font-size: 1.5rem;
+ }
+
+ .skills img {
+     width: 80px;
+     height: auto;
+ }
+
+ .gitLink{
+    text-align: center;
+    font-size: 1.9rem;
+    padding-bottom: 2rem;
+ }
+
+
+ .gitLink a {
+     text-decoration: none;
+     color: ghostwhite;
+     font-weight: bold;
+     font-size: 1.9rem;
+ }
+
+ .gitLink a:hover{
+     cursor: pointer;
+     text-decoration: underline;
+     color: rgba(248, 248, 255, 0.582);
+ }
+
+ 
+ 
+ 
